@@ -7,7 +7,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --body-dark-background: #141414;
+  --body-light-background: #191919;
+  --body-content-light-background: #242526;
+  --background-signin-color: #252525;
+  --body_color: white;
+  --link_color: cyan;
+  --text-color: #d1d0cf;
+  --text-color-input: #555555;
+  --color-primary: #5d51a8;
+  --text-primary-color: #e40813;
+  --btn-color: white;
+  --bg-color-input: white;
+  --box-shadow-1: -14.719192504882812px 17.347618103027344px 84.10966491699219px
+    0px #0038ff26;
+  --box-shadow-2: 15.770564079284668px -13.667821884155273px 112.49666595458984px
+    0px #f8003b26;
+  --box-shadow-check: 0px 0px 9px 1px #780eff;
+}
+[data-mode="light"] {
+  --background-signin-color: white !important;
+  --color-primary: #ffe919;
+  --body_color: black;
+  --link_color: navy;
+  --text-color: #7a797d;
+  --header-bg-color: #caeae6;
+  --transfer-bg-color: #caeae6;
+  --card-bg-color: white;
+  --btn-color: white;
+  --bg-color-input: #141414;
+  --text-color-input: white;
+  --box-shadow-1: -14.719192504882812px 17.347618103027344px 84.10966491699219px
+    0px #8f00ff3b;
+  --box-shadow-2: 15.770564079284668px -13.667821884155273px 112.49666595458984px
+    0px #ffe919;
+  --box-shadow-check: 0px 0px 9px 1px #ffe919;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
